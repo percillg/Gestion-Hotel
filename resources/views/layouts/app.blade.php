@@ -281,7 +281,7 @@
 
         <nav class="menu">
 
-            <a href="#"
+            <a href="{{ route('dashboard') }}"
                class="menu-item @yield('menu-dashboard')">
 
                 <i class="bi bi-speedometer2"></i>
@@ -290,7 +290,7 @@
             </a>
 
 
-            <a href="#"
+            <a href="{{ route('habitaciones.index') }}"
                class="menu-item @yield('menu-habitaciones')">
 
                 <i class="bi bi-building"></i>
@@ -326,7 +326,7 @@
             </a>
 
 
-            <a href="#"
+            <a href="{{ route('pagos.index') }}"
                class="menu-item @yield('menu-pagos')">
 
                 <i class="bi bi-credit-card"></i>
@@ -335,7 +335,7 @@
             </a>
 
 
-            <a href="#"
+            <a href="{{ route('reportes.index') }}"
                class="menu-item @yield('menu-reportes')">
 
                 <i class="bi bi-bar-chart"></i>
@@ -353,7 +353,7 @@
             </a>
 
 
-            <a href="#"
+            <a href="{{ route('configuracion.index') }}"
                class="menu-item">
 
                 <i class="bi bi-gear"></i>
